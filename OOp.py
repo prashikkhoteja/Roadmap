@@ -3,7 +3,7 @@ class Student:
         self.name = name
         self.marks = marks
 
-    @staticmethod
+    @staticmethod  # decorator
     def college():
         print("ABC college")
 

@@ -24,7 +24,7 @@ class Library:
         unwanted = input("Enter the name of the book you want to remove:")
         if unwanted in self.book:
             del self.book[unwanted]
-            print("Book deleted.")
+            print("Book deleted")
         else:
             print("Invalid, Book Not Found. ")
 
